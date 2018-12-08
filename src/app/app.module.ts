@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TruncatedTextComponent } from './truncated-text/truncated-text.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TruncatedTextComponent
   ],
   imports: [
     BrowserModule,
